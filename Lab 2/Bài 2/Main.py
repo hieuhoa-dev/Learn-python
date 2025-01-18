@@ -16,6 +16,9 @@ ds = DSPhanSo()
 ds.them(a)
 ds.them(b)
 ds.them(c)
+print("Danh sách phân số: ")
+ds.SapXep( tang = True,theoTu = True)
+ds.xuat()
 print("Phân số dương nhỏ nhất: ", ds.TimDuongNhoNhat())
 
 
